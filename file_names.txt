@@ -1,0 +1,10 @@
+Debug
+file_names.txt
+returning-ab-translate
+Tabchecker.sln
+Tabchecker.vcxproj
+Tabchecker.vcxproj.filters
+Tabchecker.vcxproj.user
+test.txt
+tlumacztest.txt
+çr¢dào.cpp

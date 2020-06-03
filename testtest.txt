@@ -1,0 +1,124 @@
+-1	53277	DIA_SERPENTES_NOENTER_PISSOFF_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_NoEnter_PissOff_01_00")	SUBTITLE	Хммм...(сердито)
+-1	53280	DIA_SERPENTES_NOTALK_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_NOTALK_10_00")	SUBTITLE	Ты осмеливаешься обращаться ко мне, послушник? Возвращайся к своей работе.
+2180	169976	DIA_SERPENTES_NOTALK_INFO	INFO_ADDCHOICE.PAR1	INFO_ADDCHOICE.PAR1	Мне нужно идти.
+2180	169977	DIA_SERPENTES_NOTALK_INFO	INFO_ADDCHOICE.PAR1	INFO_ADDCHOICE.PAR1	У меня есть еще один вопрос...
+-1	53281	DIA_SERPENTES_NOTALK_QUESTION	AI_OUTPUT(OTHER,SELF,"DIA_Serpentes_NOTALK_QUESTION_15_00")	SUBTITLE	У меня есть еще один вопрос...
+-1	53281	DIA_SERPENTES_NOTALK_QUESTION	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_NOTALK_QUESTION_10_01")	SUBTITLE	(в ярости) Похоже, ты не понимаешь. Я решаю, когда говорить с тобой, а когда нет. Что ты о себе вообразил?
+-1	53281	DIA_SERPENTES_NOTALK_QUESTION	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_NOTALK_QUESTION_10_02")	SUBTITLE	А теперь возвращайся к работе!
+-1	53285	DIA_SERPENTES_GOAWAY_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_GOAWAY_10_00")	SUBTITLE	Твое присутствие здесь говорит не только о недостатке уважения, но также о твоей тупости, послушник!
+2180	169982	DIA_SERPENTES_YOURSTORY	C_INFO.DESCRIPTION	C_INFO.DESCRIPTION	Я слышал, что ты прошел Испытание Огнем.
+-1	53288	DIA_SERPENTES_YOURSTORY_INFO	AI_OUTPUT(OTHER,SELF,"DIA_Serpentes_YOURSTORY_15_00")	SUBTITLE	Я слышал, что ты прошел Испытание Огнем.
+-1	53288	DIA_SERPENTES_YOURSTORY_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_YOURSTORY_10_01")	SUBTITLE	Со всей присущей мне скромностью я расскажу тебе об этом. Все остальные, кто пытались пройти это испытание, мертвы.
+-1	53288	DIA_SERPENTES_YOURSTORY_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_YOURSTORY_10_02")	SUBTITLE	Тебе не стоит пытаться пройти это испытание. Твой дух слаб. Лучше служи в монастыре, и, возможно, через несколько лет ты будешь выбран.
+-1	53288	DIA_SERPENTES_YOURSTORY_INFO	AI_OUTPUT(OTHER,SELF,"DIA_Serpentes_YOURSTORY_15_03")	SUBTITLE	Я хочу пройти это испытание.
+-1	53288	DIA_SERPENTES_YOURSTORY_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_YOURSTORY_10_04")	SUBTITLE	Если такова воля Инноса, то пройдешь. Но если нет - то ты умрешь.
+2180	169988	DIA_SERPENTES_TEST	C_INFO.DESCRIPTION	C_INFO.DESCRIPTION	Я готов пройти твое испытание, мастер.
+-1	53291	DIA_SERPENTES_TEST_INFO	AI_OUTPUT(OTHER,SELF,"DIA_Serpentes_TEST_15_00")	SUBTITLE	Я готов пройти твое испытание, мастер.
+-1	53291	DIA_SERPENTES_TEST_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_TEST_10_01")	SUBTITLE	Итак, ты хочешь подвергнуться этому испытанию. Только самые мужественные послушники требуют этого. Но мужество - это не все, что тебе понадобится.
+-1	53291	DIA_SERPENTES_TEST_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_TEST_10_02")	SUBTITLE	Достаточно ли ты умен, чтобы пройти это испытание? А сил у тебя хватит встретить все опасности, что поджидают тебя?
+-1	53291	DIA_SERPENTES_TEST_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_TEST_10_03")	SUBTITLE	Если нет, ты заплатишь за это своей жизнью.
+-1	53291	DIA_SERPENTES_TEST_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_TEST_10_04")	SUBTITLE	А теперь слушай: В Месте Камней, найди того, кто никогда не был рожден - найди того, кто когда-то был вызван.
+-1	53291	DIA_SERPENTES_TEST_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_TEST_10_05")	SUBTITLE	Одолей того, кого нельзя одолеть - померься силами с живой скалой, сразись с бессмертным камнем - и уничтожь его.
+2180	169996	DIA_SERPENTES_TEST_INFO	B_LOGENTRY.ENTRY	LOG_ADDENTRY.PAR1	Серпентес дал мне испытание. Он хочет, чтобы я 'нашел ему того, кто когда-то был вызван', живую скалу, и победил его.
+2180	169997	DIA_SERPENTES_NOIDEA	C_INFO.DESCRIPTION	C_INFO.DESCRIPTION	Что за создание это должно быть?
+-1	53294	DIA_SERPENTES_NOIDEA_INFO	AI_OUTPUT(OTHER,SELF,"DIA_Serpentes_NOIDEA_15_00")	SUBTITLE	Живой скалой?! Что за создание это должно быть?
+-1	53277	DIA_SERPENTES_NOENTER_PISSOFF_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_NoEnter_PissOff_01_00")	SUBTITLE	Хммм...(сердито)
+-1	53280	DIA_SERPENTES_NOTALK_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_NOTALK_10_00")	SUBTITLE	Ты осмеливаешься обращаться ко мне, послушник? Возвращайся к своей работе.
+2180	169976	DIA_SERPENTES_NOTALK_INFO	INFO_ADDCHOICE.PAR1	INFO_ADDCHOICE.PAR1	Мне нужно идти.
+2180	169977	DIA_SERPENTES_NOTALK_INFO	INFO_ADDCHOICE.PAR1	INFO_ADDCHOICE.PAR1	У меня есть еще один вопрос...
+-1	53281	DIA_SERPENTES_NOTALK_QUESTION	AI_OUTPUT(OTHER,SELF,"DIA_Serpentes_NOTALK_QUESTION_15_00")	SUBTITLE	У меня есть еще один вопрос...
+-1	53281	DIA_SERPENTES_NOTALK_QUESTION	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_NOTALK_QUESTION_10_01")	SUBTITLE	(в ярости) Похоже, ты не понимаешь. Я решаю, когда говорить с тобой, а когда нет. Что ты о себе вообразил?
+-1	53281	DIA_SERPENTES_NOTALK_QUESTION	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_NOTALK_QUESTION_10_02")	SUBTITLE	А теперь возвращайся к работе!
+-1	53285	DIA_SERPENTES_GOAWAY_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_GOAWAY_10_00")	SUBTITLE	Твое присутствие здесь говорит не только о недостатке уважения, но также о твоей тупости, послушник!
+2180	169982	DIA_SERPENTES_YOURSTORY	C_INFO.DESCRIPTION	C_INFO.DESCRIPTION	Я слышал, что ты прошел Испытание Огнем.
+-1	53288	DIA_SERPENTES_YOURSTORY_INFO	AI_OUTPUT(OTHER,SELF,"DIA_Serpentes_YOURSTORY_15_00")	SUBTITLE	Я слышал, что ты прошел Испытание Огнем.
+-1	53288	DIA_SERPENTES_YOURSTORY_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_YOURSTORY_10_01")	SUBTITLE	Со всей присущей мне скромностью я расскажу тебе об этом. Все остальные, кто пытались пройти это испытание, мертвы.
+-1	53288	DIA_SERPENTES_YOURSTORY_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_YOURSTORY_10_02")	SUBTITLE	Тебе не стоит пытаться пройти это испытание. Твой дух слаб. Лучше служи в монастыре, и, возможно, через несколько лет ты будешь выбран.
+-1	53288	DIA_SERPENTES_YOURSTORY_INFO	AI_OUTPUT(OTHER,SELF,"DIA_Serpentes_YOURSTORY_15_03")	SUBTITLE	Я хочу пройти это испытание.
+-1	53288	DIA_SERPENTES_YOURSTORY_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_YOURSTORY_10_04")	SUBTITLE	Если такова воля Инноса, то пройдешь. Но если нет - то ты умрешь.
+2180	169988	DIA_SERPENTES_TEST	C_INFO.DESCRIPTION	C_INFO.DESCRIPTION	Я готов пройти твое испытание, мастер.
+-1	53291	DIA_SERPENTES_TEST_INFO	AI_OUTPUT(OTHER,SELF,"DIA_Serpentes_TEST_15_00")	SUBTITLE	Я готов пройти твое испытание, мастер.
+-1	53291	DIA_SERPENTES_TEST_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_TEST_10_01")	SUBTITLE	Итак, ты хочешь подвергнуться этому испытанию. Только самые мужественные послушники требуют этого. Но мужество - это не все, что тебе понадобится.
+-1	53291	DIA_SERPENTES_TEST_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_TEST_10_02")	SUBTITLE	Достаточно ли ты умен, чтобы пройти это испытание? А сил у тебя хватит встретить все опасности, что поджидают тебя?
+-1	53291	DIA_SERPENTES_TEST_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_TEST_10_03")	SUBTITLE	Если нет, ты заплатишь за это своей жизнью.
+-1	53291	DIA_SERPENTES_TEST_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_TEST_10_04")	SUBTITLE	А теперь слушай: В Месте Камней, найди того, кто никогда не был рожден - найди того, кто когда-то был вызван.
+-1	53291	DIA_SERPENTES_TEST_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_TEST_10_05")	SUBTITLE	Одолей того, кого нельзя одолеть - померься силами с живой скалой, сразись с бессмертным камнем - и уничтожь его.
+2180	169996	DIA_SERPENTES_TEST_INFO	B_LOGENTRY.ENTRY	LOG_ADDENTRY.PAR1	Серпентес дал мне испытание. Он хочет, чтобы я 'нашел ему того, кто когда-то был вызван', живую скалу, и победил его.
+2180	169997	DIA_SERPENTES_NOIDEA	C_INFO.DESCRIPTION	C_INFO.DESCRIPTION	Что за создание это должно быть?
+-1	53294	DIA_SERPENTES_NOIDEA_INFO	AI_OUTPUT(OTHER,SELF,"DIA_Serpentes_NOIDEA_15_00")	SUBTITLE	Живой скалой?! Что за создание это должно быть?
+-1	53294	DIA_SERPENTES_NOIDEA_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_NOIDEA_10_01")	SUBTITLE	Я сказал тебе все...(с издевкой) Или это испытание кажется тебе слишком сложным?
+-1	53294	DIA_SERPENTES_NOIDEA_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_NOIDEA_10_02")	SUBTITLE	Теперь ты узнаешь, что означает пройти Испытание Огнем - я больше не буду отвечать на твои вопросы.
+-1	53297	DIA_SERPENTES_NOHELP_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_NOHELP_10_00")	SUBTITLE	(с презрением) Иди и выполняй свою задачу, послушник!
+2180	170002	DIA_SERPENTES_SUCCESS	C_INFO.DESCRIPTION	C_INFO.DESCRIPTION	Я победил голема.
+-1	53300	DIA_SERPENTES_SUCCESS_INFO	AI_OUTPUT(OTHER,SELF,"DIA_Serpentes_SUCCESS_15_00")	SUBTITLE	Я победил голема.
+-1	53300	DIA_SERPENTES_SUCCESS_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_SUCCESS_10_01")	SUBTITLE	Что? Ты действительно сделал это? Но без Молота Инноса ты никогда бы не смог уничтожить этого голема.
+-1	53300	DIA_SERPENTES_SUCCESS_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_SUCCESS_10_02")	SUBTITLE	(с триумфом) Но ты выдал себя! Это ты убил Гарвига!
+-1	53300	DIA_SERPENTES_SUCCESS_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_SUCCESS_10_03")	SUBTITLE	ТЫ ПОНЕСЕШЬ НАКАЗАНИЕ ЗА УБИЙСТВО СЛУГИ ИННОСА!!!
+-1	53300	DIA_SERPENTES_SUCCESS_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_SUCCESS_10_04")	SUBTITLE	(с сожалением) Тем не менее, я должен признать, что ты выполнил задание, которое я дал тебе.
+-1	53300	DIA_SERPENTES_SUCCESS_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_SUCCESS_10_05")	SUBTITLE	И будет лучше, если я заберу этот молот.
+2180	170010	DIA_SERPENTES_PERM	C_INFO.DESCRIPTION	C_INFO.DESCRIPTION	Ты хочешь что-то еще сказать мне?
+-1	53304	DIA_SERPENTES_PERM_INFO	AI_OUTPUT(OTHER,SELF,"DIA_Serpentes_PERM_15_00")	SUBTITLE	Ты хочешь что-то еще сказать мне?
+-1	53304	DIA_SERPENTES_PERM_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_PERM_10_01")	SUBTITLE	Нет. Пока нет, брат.
+-1	53304	DIA_SERPENTES_PERM_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_PERM_10_02")	SUBTITLE	Свободен. Ты знаешь, что тебе нужно делать.
+-1	53307	DIA_SERPENTES_MINENANTEILE_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_MinenAnteile_10_00")	SUBTITLE	Не так быстро. У меня есть еще одно задание для тебя.
+-1	53307	DIA_SERPENTES_MINENANTEILE_INFO	AI_OUTPUT(OTHER,SELF,"DIA_Serpentes_MinenAnteile_15_01")	SUBTITLE	(вздыхает) Что еще?
+-1	53307	DIA_SERPENTES_MINENANTEILE_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_MinenAnteile_10_02")	SUBTITLE	Теперь, когда ты принадлежишь к Братству Огня, ты также должен выполнять обязанности, сопутствующие твоему положению.
+-1	53307	DIA_SERPENTES_MINENANTEILE_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_MinenAnteile_10_03")	SUBTITLE	Церковь занимается не только вопросами магии - она также, как ты знаешь, является последней инстанцией в вопросе осуществления правосудия.
+-1	53307	DIA_SERPENTES_MINENANTEILE_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_MinenAnteile_10_04")	SUBTITLE	Последний случай, с которым нам пришлось иметь дело, открывает бездонную пропасть, и с этим нужно разобраться раз и навсегда.
+2180	170019	DIA_SERPENTES_MINENANTEILE_INFO	INFO_ADDCHOICE.PAR1	INFO_ADDCHOICE.PAR1	У меня и так уже много заданий. Найди кого-нибудь еще.
+2180	170020	DIA_SERPENTES_MINENANTEILE_INFO	INFO_ADDCHOICE.PAR1	INFO_ADDCHOICE.PAR1	Что ты там придумал?
+2180	170021	DIA_SERPENTES_MINENANTEILE_INFO	INFO_ADDCHOICE.PAR1	INFO_ADDCHOICE.PAR1	Разве это не работа ополчения?
+-1	53307	DIA_SERPENTES_MINENANTEILE_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_MinenAnteile_10_05")	SUBTITLE	Наемник вроде тебя мог бы очень помочь нам в этом вопросе.
+2180	170023	DIA_SERPENTES_MINENANTEILE_INFO	INFO_ADDCHOICE.PAR1	INFO_ADDCHOICE.PAR1	У меня и так уже много заданий. Найди кого-нибудь еще.
+2180	170024	DIA_SERPENTES_MINENANTEILE_INFO	INFO_ADDCHOICE.PAR1	INFO_ADDCHOICE.PAR1	Кого я должен убить?
+-1	53308	DIA_SERPENTES_MINENANTEILE_MILIZ	AI_OUTPUT(OTHER,SELF,"DIA_Serpentes_MinenAnteile_miliz_15_00")	SUBTITLE	Разве это не работа ополчения?
+-1	53308	DIA_SERPENTES_MINENANTEILE_MILIZ	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_MinenAnteile_miliz_10_01")	SUBTITLE	Ополчение отвечает только за город. Это дело может иметь далеко идущие последствия.
+-1	53309	DIA_SERPENTES_MINENANTEILE_NEIN	AI_OUTPUT(OTHER,SELF,"DIA_Serpentes_MinenAnteile_nein_15_00")	SUBTITLE	У меня и так уже много заданий. Найди кого-нибудь еще.
+-1	53309	DIA_SERPENTES_MINENANTEILE_NEIN	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_MinenAnteile_nein_10_02")	SUBTITLE	Я объявляю тебе выговор. Надеюсь, больше этого не повторится - иначе ты плохо кончишь.
+-1	53310	DIA_SERPENTES_MINENANTEILE_WAS	AI_OUTPUT(OTHER,SELF,"DIA_Serpentes_MinenAnteile_was_15_00")	SUBTITLE	Ну что там еще?
+-1	53310	DIA_SERPENTES_MINENANTEILE_WAS	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_MinenAnteile_was_10_01")	SUBTITLE	Кто-то в городе продает фальшивые акции шахт бывшей исправительной колонии.
+-1	53310	DIA_SERPENTES_MINENANTEILE_WAS	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_MinenAnteile_was_10_02")	SUBTITLE	Эти бумаги абсолютно бесполезны и не имеют особого значения. Но все же, они могут посеять волнения и недовольства среди людей, что мы не можем позволить себе в текущей ситуации.
+-1	53310	DIA_SERPENTES_MINENANTEILE_WAS	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_MinenAnteile_was_10_03")	SUBTITLE	Этот мошенник предположительно имеет связи со всеми наиболее влиятельными торговцами в городе и сельской местности, и ему уже удалось продать свои поддельные акции некоторым из них.
+-1	53310	DIA_SERPENTES_MINENANTEILE_WAS	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_MinenAnteile_was_10_04")	SUBTITLE	Найди этого мошенника и приведи его сюда. В такие тяжелые времена мы не потерпим жуликов и грабителей.
+-1	53310	DIA_SERPENTES_MINENANTEILE_WAS	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_MinenAnteile_was_10_05")	SUBTITLE	Это дело должно стать показательным, чтобы другим было неповадно.
+2180	170035	DIA_SERPENTES_MINENANTEILE_WAS	INFO_ADDCHOICE.PAR1	INFO_ADDCHOICE.PAR1	Я попробую прояснить этот вопрос.
+-1	53311	DIA_SERPENTES_MINENANTEILE_WAS_JA	AI_OUTPUT(OTHER,SELF,"DIA_Serpentes_MinenAnteile_was_ja_15_00")	SUBTITLE	Я попробую прояснить этот вопрос.
+-1	53311	DIA_SERPENTES_MINENANTEILE_WAS_JA	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_MinenAnteile_was_ja_10_01")	SUBTITLE	Еще одно. Когда ты будешь разговаривать с этими торговцами, важно, чтобы они не поняли, что ты ищешь именно эти акции.
+-1	53311	DIA_SERPENTES_MINENANTEILE_WAS_JA	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_MinenAnteile_was_ja_10_02")	SUBTITLE	Я думаю, они захотят продать их, но наверняка откажутся иметь с тобой дело, если поймут, что ты действуешь по поручению Церкви, понимаешь?
+-1	53311	DIA_SERPENTES_MINENANTEILE_WAS_JA	AI_OUTPUT(OTHER,SELF,"DIA_Serpentes_MinenAnteile_was_ja_15_03")	SUBTITLE	Да.
+-1	53311	DIA_SERPENTES_MINENANTEILE_WAS_JA	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_MinenAnteile_was_ja_10_04")	SUBTITLE	Тогда за работу. Я желаю тебе успеха, брат.
+2180	170041	DIA_SERPENTES_MINENANTEILE_WAS_JA	B_LOGENTRY.ENTRY	LOG_ADDENTRY.PAR1	Кто-то продает фальшивые акции шахты и обогащается таким незаконным способом. Я должен найти того, кто продает эти акции торговцам. Серпентес хочет заполучить все эти поддельные документы.
+-1	53312	DIA_SERPENTES_MINENANTEILE_KILLSLD	AI_OUTPUT(OTHER,SELF,"DIA_Serpentes_MinenAnteile_Kill_15_00")	SUBTITLE	Кого я должен убить?
+-1	53312	DIA_SERPENTES_MINENANTEILE_KILLSLD	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_MinenAnteile_Kill_10_01")	SUBTITLE	О, Иннос. Никого, конечно же. Это дело требует изящности, ты, грубый мужлан.
+-1	53312	DIA_SERPENTES_MINENANTEILE_KILLSLD	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_MinenAnteile_Kill_10_02")	SUBTITLE	Саландрил, алхимик из верхнего квартала, виновен в серьезном преступлении и его нужно наказать за это.
+-1	53312	DIA_SERPENTES_MINENANTEILE_KILLSLD	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_MinenAnteile_Kill_10_03")	SUBTITLE	Однако он отказывается прибыть в монастырь для суда. Приведи его сюда.
+-1	53312	DIA_SERPENTES_MINENANTEILE_KILLSLD	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_MinenAnteile_Kill_10_04")	SUBTITLE	Как ты сделаешь это, меня не волнует. Но ты, конечно же, будешь вознагражден.
+2180	170047	DIA_SERPENTES_MINENANTEILE_KILLSLD	INFO_ADDCHOICE.PAR1	INFO_ADDCHOICE.PAR1	Разве это не работа ополчения?
+2180	170048	DIA_SERPENTES_MINENANTEILE_KILLSLD	INFO_ADDCHOICE.PAR1	INFO_ADDCHOICE.PAR1	Нет проблем. Я сделаю это.
+-1	53314	DIA_SERPENTES_MINENANTEILE_WAS_JASLD	AI_OUTPUT(OTHER,SELF,"DIA_Serpentes_MinenAnteile_was_jaSLD_15_00")	SUBTITLE	Нет проблем. Я сделаю это.
+-1	53314	DIA_SERPENTES_MINENANTEILE_WAS_JASLD	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_MinenAnteile_was_jaSLD_10_01")	SUBTITLE	Хорошо. Мы ожидаем услышать от тебя новости через несколько дней.
+2180	170051	DIA_SERPENTES_MINENANTEILE_WAS_JASLD	B_LOGENTRY.ENTRY	LOG_ADDENTRY.PAR1	Я должен доставить Саландрила, алхимика из верхней части Хориниса, в монастырь для суда. Мне не особенно интересует, что он там натворил, пока мне хорошо платят за это.
+2180	170052	DIA_SERPENTES_MINENANTEILEBRINGEN	C_INFO.DESCRIPTION	C_INFO.DESCRIPTION	Насчет поддельных акций...
+-1	53318	DIA_SERPENTES_MINENANTEILEBRINGEN_INFO	AI_OUTPUT(OTHER,SELF,"DIA_Serpentes_MinenAnteileBringen_15_00")	SUBTITLE	Я смог найти акции шахт.
+-1	53318	DIA_SERPENTES_MINENANTEILEBRINGEN_INFO	AI_OUTPUT(OTHER,SELF,"DIA_Serpentes_MinenAnteileBringen_15_01")	SUBTITLE	Я смог найти несколько акций шахт.
+-1	53318	DIA_SERPENTES_MINENANTEILEBRINGEN_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_MinenAnteileBringen_10_02")	SUBTITLE	Очень хорошо. Ты должен изъять из обращения все акции. Это отрава для наших людей. Принеси их все мне.
+-1	53318	DIA_SERPENTES_MINENANTEILEBRINGEN_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_MinenAnteileBringen_10_03")	SUBTITLE	Вот. Это компенсирует твои расходы.
+-1	53318	DIA_SERPENTES_MINENANTEILEBRINGEN_INFO	AI_OUTPUT(OTHER,SELF,"DIA_Serpentes_MinenAnteileBringen_15_04")	SUBTITLE	Это все акции, как мне кажется.
+-1	53318	DIA_SERPENTES_MINENANTEILEBRINGEN_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_MinenAnteileBringen_10_05")	SUBTITLE	Отлично. Ты заслужил награду.
+-1	53318	DIA_SERPENTES_MINENANTEILEBRINGEN_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_MinenAnteileBringen_10_06")	SUBTITLE	Возьми этот защитный амулет. Он поможет тебе пройти по пути, который еще только ожидает тебя.
+-1	53318	DIA_SERPENTES_MINENANTEILEBRINGEN_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_MinenAnteileBringen_10_07")	SUBTITLE	Это действительно последняя акция, да?
+2180	170061	DIA_SERPENTES_GOTSALANDRIL	C_INFO.DESCRIPTION	C_INFO.DESCRIPTION	Я знаю, кто ввел эти акции в обращение.
+-1	53327	DIA_SERPENTES_GOTSALANDRIL_INFO	AI_OUTPUT(OTHER,SELF,"DIA_Serpentes_GOTSalandril_15_00")	SUBTITLE	Я знаю, кто ввел эти акции в обращение. Это Саландрил, алхимик из верхнего квартала города.
+-1	53327	DIA_SERPENTES_GOTSALANDRIL_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_GOTSalandril_10_01")	SUBTITLE	Тогда приведи его сюда. Нам есть, что обсудить с ним.
+2180	170064	DIA_SERPENTES_SALANDRILHERE	C_INFO.DESCRIPTION	C_INFO.DESCRIPTION	Саландрил здесь, в монастыре.
+-1	53330	DIA_SERPENTES_SALANDRILHERE_INFO	AI_OUTPUT(OTHER,SELF,"DIA_Serpentes_SalandrilHERE_15_00")	SUBTITLE	Саландрил здесь, в монастыре.
+-1	53330	DIA_SERPENTES_SALANDRILHERE_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_SalandrilHERE_10_01")	SUBTITLE	Отлично. Мы разберемся с ним позже.
+-1	53330	DIA_SERPENTES_SALANDRILHERE_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_SalandrilHERE_10_02")	SUBTITLE	Вот твоя награда. И никому ни слова об этом, понятно?
+2180	170069	DIA_SERPENTES_SALANDRILDEAD	C_INFO.DESCRIPTION	C_INFO.DESCRIPTION	Саландрил мертв.
+-1	53333	DIA_SERPENTES_SALANDRILDEAD_INFO	AI_OUTPUT(OTHER,SELF,"DIA_Serpentes_SalandrilDEAD_15_00")	SUBTITLE	Саландрил мертв.
+-1	53333	DIA_SERPENTES_SALANDRILDEAD_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_SalandrilDEAD_10_01")	SUBTITLE	Что ж, значит, его дела не остались безнаказанными. Да сжалится Иннос над его бедной душой.
+2180	170072	DIA_SERPENTES_RUNEMAGICNOTWORK	C_INFO.DESCRIPTION	C_INFO.DESCRIPTION	Твои магические руны - они все еще работают?
+-1	53341	DIA_SERPENTES_RUNEMAGICNOTWORK_INFO	AI_OUTPUT(OTHER,SELF,"DIA_Serpentes_RuneMagicNotWork_01_00")	SUBTITLE	Твои магические руны - они все еще работают?
+-1	53341	DIA_SERPENTES_RUNEMAGICNOTWORK_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_RuneMagicNotWork_01_01")	SUBTITLE	Еще вчера я бы плюнул в лицо любому, кто сказал бы, что сегодня я не смогу сотворить магию. Но руны и вправду перестали меня слушаться!
+-1	53341	DIA_SERPENTES_RUNEMAGICNOTWORK_INFO	AI_OUTPUT(OTHER,SELF,"DIA_Serpentes_RuneMagicNotWork_01_02")	SUBTITLE	А что насчет остальных?
+-1	53341	DIA_SERPENTES_RUNEMAGICNOTWORK_INFO	AI_OUTPUT(SELF,OTHER,"DIA_Serpentes_RuneMagicNotWork_01_03")	SUBTITLE	Ты хочешь сказать, что я - один из лучших магов - единственный, кто этому подвергся? Если Я ничего не могу, другие и подавно не могут!
