@@ -115,7 +115,8 @@ void replaceTranslation() {
                 firstTabTranslation,
                 firstTabAb,
                 translationCounter=1,
-                abCounter = 1;
+                abCounter = 1,
+                vectorCounter=0;
             string abLine,
                 translationLine,
                 translationComparable,
@@ -129,14 +130,14 @@ void replaceTranslation() {
             if ((!translation.good()) || (!ab.good())) exit(0);
 
             while (getline(translation, translationLine)) {
-                linesFromTranslation.push_back(translationLine);
+                
                 firstTabTranslation = translationLine.find_first_of('	');
                 lastTabTranslation = translationLine.find_last_of('	');
                 textAtTheEndTranslation = translationLine.substr(lastTabTranslation + 1, translationLine.size() - 1);
                 translationComparable = translationLine.substr(firstTabTranslation + 1, translationLine.size() - (textAtTheEndTranslation.size() + firstTabTranslation + 2));
-
+                linesFromTranslation.push_back(translationComparable);
                 //Test tekstu do porównania
-                testtest << translationComparable << endl;
+               /* testtest << translationComparable << endl;*/
             }
             
             while (getline(ab, abLine)) {
@@ -144,9 +145,12 @@ void replaceTranslation() {
                 lastTabAb = abLine.find_last_of('	');
                 textAtTheEndAb = abLine.substr(lastTabAb + 1, abLine.size() - 1);
                 abComparable = abLine.substr(firstTabAb + 1, abLine.size()- (textAtTheEndAb.size()+firstTabAb+2));
-
+                if ((abComparable == linesFromTranslation[vectorCounter])&&(vectorCounter<linesFromTranslation.size())) {
+                    testtest << abComparable << endl;
+                    if (!(vectorCounter == linesFromTranslation.size()-1))vectorCounter++;
+                }
                 //Test tekstu do porównania
-                testtest << abComparable << endl;
+                /*testtest << abComparable << endl;*/
             }
             ab.close();
             translation.close();
@@ -165,7 +169,7 @@ int main() {
             break;
         default: exit(0);
         }
-    }    
+    }
 
     return 0;
 }
