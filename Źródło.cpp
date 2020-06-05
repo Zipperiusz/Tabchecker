@@ -17,6 +17,19 @@ vector<string> pliki;
 string line;
 fstream listaPlikow;
 int chooseFile;
+
+int findNthOccur(string str, char ch, int N) {
+    int occur = 0;
+    // Loop to find the Nth 
+    // occurence of the character 
+    for (int i = 0; i < str.length(); i++) {
+        if (str[i] == ch) {
+            occur += 1;
+        }
+        if (occur == N) return i;
+    }
+    return -1;
+}
 void whichFiles() {
     pliki.clear();
     cout << "Wybierz plik: \n";
@@ -97,7 +110,7 @@ void exportToFile() {
         cout << "Something went wrong\n";
         exit(0);
     }
-
+    //wyci¹gnij polskie t³umaczenie do osobnego pliku
     while (getline(importedFile, rawLine)) {
         lastTab = rawLine.find_last_of('	');
         polishText = rawLine.substr(lastTab+1,rawLine.size()-1);
@@ -109,13 +122,11 @@ void exportToFile() {
 void replaceTranslation() {
             fstream ab,
                 translation,
-                testtest;
+                output;
             int lastTabTranslation,
                 lastTabAb,
-                firstTabTranslation,
-                firstTabAb,
-                translationCounter=1,
-                abCounter = 1,
+                thirdTabTranslation,
+                thirdTabAb,
                 vectorCounter=0;
             string abLine,
                 translationLine,
@@ -124,37 +135,52 @@ void replaceTranslation() {
                 textAtTheEndAb,
                 textAtTheEndTranslation;
             vector<string>linesFromTranslation;
-            translation.open("test.txt", ios::in);
-            ab.open("tlumacztest.txt", ios::in | ios::out | ios::app);
-            testtest.open("testtest.txt", ios::out);
+            vector<string>fullLinesReadyToPaste;
+            //plik z t³umaczeniem
+            whichFiles();
+            translation.open(nazwaPliku, ios::in);
+            //plik g³ówny ab_skryty_pl
+            ab.open("tlumacztest.txt", ios::in);
+            //plik wyjœciowy
+            output.open("output.txt", ios::out);
             if ((!translation.good()) || (!ab.good())) exit(0);
 
-            while (getline(translation, translationLine)) {
-                
-                firstTabTranslation = translationLine.find_first_of('	');
+            while (getline(translation, translationLine)) {                
+                thirdTabTranslation = findNthOccur(translationLine, '	', 3);
                 lastTabTranslation = translationLine.find_last_of('	');
                 textAtTheEndTranslation = translationLine.substr(lastTabTranslation + 1, translationLine.size() - 1);
-                translationComparable = translationLine.substr(firstTabTranslation + 1, translationLine.size() - (textAtTheEndTranslation.size() + firstTabTranslation + 2));
+                translationComparable = translationLine.substr(thirdTabTranslation + 1, translationLine.size() - (textAtTheEndTranslation.size() + thirdTabTranslation + 2));
                 linesFromTranslation.push_back(translationComparable);
-                //Test tekstu do porównania
-               /* testtest << translationComparable << endl;*/
+                fullLinesReadyToPaste.push_back(translationLine);                
             }
             
             while (getline(ab, abLine)) {
-                firstTabAb = abLine.find_first_of('	');
+                thirdTabAb = findNthOccur(abLine, '	', 3);
                 lastTabAb = abLine.find_last_of('	');
                 textAtTheEndAb = abLine.substr(lastTabAb + 1, abLine.size() - 1);
-                abComparable = abLine.substr(firstTabAb + 1, abLine.size()- (textAtTheEndAb.size()+firstTabAb+2));
+                //tekst do porównania z pliku g³ównego
+                abComparable = abLine.substr(thirdTabAb + 1, abLine.size()- (textAtTheEndAb.size()+thirdTabAb+2));
+                //podmieñ zawartoœæ je¿eli znajduje siê w pliku z t³umaczeniem, jeœli nie szukaj dalej zgodnych linijek, a linijki nienale¿¹ce do t³umaczenie wklej z powrotem
                 if ((abComparable == linesFromTranslation[vectorCounter])&&(vectorCounter<linesFromTranslation.size())) {
-                    testtest << abComparable << endl;
-                    if (!(vectorCounter == linesFromTranslation.size()-1))vectorCounter++;
+                    output << fullLinesReadyToPaste[vectorCounter] << endl;
+                    if (!(vectorCounter == linesFromTranslation.size()-1)) vectorCounter++;
                 }
-                //Test tekstu do porównania
-                /*testtest << abComparable << endl;*/
+                else {
+                    output << abLine << endl;
+                }                
             }
+            //sprawdŸ czy wszystkie linijki zosta³y podmienione
+            if (vectorCounter == (linesFromTranslation.size() - 1)) {
+                cout << "Git gut poszlo \n";
+            }
+            else {
+                cout << "W tej linii cos jest nie tak: " << vectorCounter << endl;
+            }
+            cout << vectorCounter<<endl;
+            cout << linesFromTranslation.size()<<endl;
             ab.close();
             translation.close();
-            testtest.close();
+            output.close();
 }
 int main() {    
     while (true) {
