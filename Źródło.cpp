@@ -127,20 +127,22 @@ void replaceTranslation() {
                 lastTabAb,
                 thirdTabTranslation,
                 thirdTabAb,
-                vectorCounter=0;
+                vectorCounter=0,
+                lineCounter=1;
             string abLine,
                 translationLine,
                 translationComparable,
                 abComparable,
                 textAtTheEndAb,
                 textAtTheEndTranslation;
+            bool everythingFine;
             vector<string>linesFromTranslation;
             vector<string>fullLinesReadyToPaste;
             //plik z t³umaczeniem
             whichFiles();
             translation.open(nazwaPliku, ios::in);
             //plik g³ówny ab_skryty_pl
-            ab.open("tlumacztest.txt", ios::in);
+            ab.open("ab_skrypty_pl.txt", ios::in);
             //plik wyjœciowy
             output.open("output.txt", ios::out);
             if ((!translation.good()) || (!ab.good())) exit(0);
@@ -164,6 +166,7 @@ void replaceTranslation() {
                 if ((abComparable == linesFromTranslation[vectorCounter])&&(vectorCounter<linesFromTranslation.size())) {
                     output << fullLinesReadyToPaste[vectorCounter] << endl;
                     if (!(vectorCounter == linesFromTranslation.size()-1)) vectorCounter++;
+                    lineCounter++;
                 }
                 else {
                     output << abLine << endl;
@@ -171,20 +174,28 @@ void replaceTranslation() {
             }
             //sprawdŸ czy wszystkie linijki zosta³y podmienione
             if (vectorCounter == (linesFromTranslation.size() - 1)) {
-                cout << "Git gut poszlo \n";
+                cout << "Git gut poszlo!\n";
+                cout << "Podmienilem " << vectorCounter+1 << " linijek \n";
+                everythingFine = true;
             }
             else {
-                cout << "W tej linii cos jest nie tak: " << vectorCounter << endl;
+                cout << "W tej linii cos jest nie tak: " << lineCounter << endl;
+                everythingFine = false;
             }
-            cout << vectorCounter<<endl;
-            cout << linesFromTranslation.size()<<endl;
             ab.close();
             translation.close();
             output.close();
+            if (everythingFine) {
+                remove("ab_skrypty_pl_old.txt");
+                rename("ab_skrypty_pl.txt", "ab_skrypty_pl_old.txt");
+                rename("output.txt", "ab_skrypty_pl.txt");
+            }
 }
 int main() {    
     while (true) {
+        cout << "======================================\n";
         cout << " Menu \n 1. Sprawdz tlumaczenie \n 2. Importuj tekst do pliku \n 3. Podmien tlumaczenie\n";
+        cout << "======================================\n\n";
         char menu = _getch();
         switch (menu) {
         case '1':check();

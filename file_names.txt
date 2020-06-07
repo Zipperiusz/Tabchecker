@@ -1,16 +1,14 @@
 .gitattributes
 .gitignore
 ab_skrypty_pl.txt
-bin
+ab_skrypty_pl_old.txt
 Debug
 file_names.txt
-output.txt
 Tabchecker.sln
 Tabchecker.vcxproj
 Tabchecker.vcxproj.filters
 Tabchecker.vcxproj.user
-test - kopia.txt
-test.txt
-tlumacztest - kopia.txt
-tlumacztest.txt
+tlumacz19.txt
+tlumacz27.txt
+tlumacz28.txt
 çr¢dào.cpp
